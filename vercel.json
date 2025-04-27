@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "tabela-ilegal/package.json", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "tabela-ilegal/$1" }
+  ],
+  "github": {
+    "rootDirectory": "tabela-ilegal"
+  }
+} 
